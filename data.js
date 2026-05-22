@@ -906,12 +906,12 @@ window.HEATMAP_COMPANIES = [
     "segment": "laser",
     "sub": "Emitter",
     "role": "Emitters, sensors and photonics devices",
-    "change": 18.49,
+    "change": 19.03,
     "tags": [
       "emitter"
     ],
     "priceStatus": "ok",
-    "latestClose": 21.600000381469727,
+    "latestClose": 21.700000762939453,
     "referenceClose": 18.229999542236328,
     "priceDate": "2026-05-22",
     "referenceDate": "2026-05-15"
