@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+data/google_sheet_test_*.js
+data/google_sheet_test_*.json

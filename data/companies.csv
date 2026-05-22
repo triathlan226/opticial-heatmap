@@ -1,0 +1,129 @@
+segment,ticker,quote_symbol,name,market,sub,role,tags,manual_change
+asic,AVGO,,Broadcom,US,Switch ASIC,Tomahawk / Jericho switch silicon,ASIC|switch,5.80
+asic,NVDA,,NVIDIA,US,GPU / Network ASIC,"GPU, NVLink, Spectrum-X ecosystem",GPU|networking,4.20
+asic,MRVL,,Marvell,US,DSP / PAM4,"Optical DSP, custom silicon, DCI chips",DSP|custom silicon,6.40
+asic,CRDO,,Credo,US,Retimer / DSP,High-speed connectivity and optical DSP,DSP|retimer,8.10
+asic,ALAB,,Astera Labs,US,PCIe / CXL,AI data-center connectivity silicon,retimer|CXL,7.30
+asic,MTSI,,MACOM,US,Analog IC,"Laser drivers, TIAs, high-speed analog",driver|TIA,3.60
+asic,SMTC,,Semtech,US,Signal IC,Signal integrity and optical analog ICs,signal,-1.80
+asic,CSCO,,Cisco,US,Network silicon,Silicon One and Acacia optical stack,switch|acacia,1.90
+asic,CIEN,,Ciena,US,Coherent DSP,WaveLogic coherent DSP and systems,coherent|DSP,2.40
+asic,AMD,,AMD,US,AI accelerator,AI accelerators and adaptive compute,accelerator,-0.70
+asic,INTC,,Intel,US,Foundry / I/O,"Foundry, Ethernet, historical silicon photonics",foundry|ethernet,-2.90
+asic,QCOM,,Qualcomm,US,Connectivity IC,High-speed connectivity and edge AI silicon,connectivity,0.60
+asic,3661.TW,,世芯-KY,TW,ASIC design,Advanced-node custom ASIC design service,ASIC|design,4.90
+asic,3443.TW,,創意,TW,ASIC design,GUC ASIC design and implementation,ASIC|design,3.10
+asic,2454.TW,,聯發科,TW,Connectivity SoC,"Networking, SerDes and edge AI chip exposure",SoC,1.20
+asic,5274.TWO,,信驊,TW,BMC,Server management silicon,server,-0.90
+asic,688536.SH,,思瑞浦,CN,Analog IC,Analog and signal-chain ICs,analog,-3.70
+asic,688498.SH,,源傑科技,CN,Laser driver link,Optical chip supplier with upstream exposure,optical chip,5.20
+sipic,2330.TW,,台積電,TW,Foundry,Advanced-node and packaging platform for CPO ecosystem,foundry|CoWoS,2.60
+sipic,AVGO,,Broadcom,US,Co-packaged optics,CPO roadmap and switch silicon integration,CPO|switch,5.80
+sipic,NVDA,,NVIDIA,US,Optical I/O ecosystem,AI cluster architecture drives optical I/O demand,AI|optical I/O,4.20
+sipic,MRVL,,Marvell,US,Optical platform,DSP plus silicon photonics partnership ecosystem,DSP|SiPh,6.40
+sipic,INTC,,Intel,US,Silicon photonics,Integrated silicon photonics and foundry capabilities,SiPh|foundry,-2.90
+sipic,COHR,,Coherent,US,Optical engine,"Lasers, transceivers and optical engine building blocks",laser|module,6.90
+sipic,LITE,,Lumentum,US,Optical engine,Datacom lasers and optical components,laser|datacom,4.40
+sipic,STM,,STMicro,EU,Photonics platform,Photonics and advanced semiconductor platform exposure,photonics,-1.10
+sipic,GFS,,GlobalFoundries,US,Specialty foundry,Silicon photonics and specialty process platform,foundry|SiPh,1.70
+sipic,TSEM,,Tower Semiconductor,US,Specialty foundry,"Analog, photonics and specialty manufacturing",foundry,0.80
+sipic,NOK,,Nokia,EU,Optical systems,Photonic service engines and coherent optics,coherent,2.10
+sipic,CSCO,,Cisco,US,Acacia optics,Coherent modules and optical interconnect roadmap,Acacia|coherent,1.90
+sipic,CIEN,,Ciena,US,Coherent optics,Coherent optical engine and network platforms,coherent,2.40
+sipic,POET,,POET Technologies,US,Optical interposer,Optical interposer platform for transceivers,interposer,9.50
+sipic,LWLG,,Lightwave Logic,US,EO polymer,Electro-optic polymer material platform,material,-4.20
+sipic,4966.TWO,,譜瑞-KY,TW,High-speed interface,High-speed interface ICs and data transmission,interface,2.80
+sipic,6789.TW,,采鈺,TW,Optical process,Optical semiconductor process and sensor platform,process,1.50
+sipic,688313.SH,,仕佳光子,CN,PLC / optical chip,"PLC splitter, AWG and optical chip supplier",PLC|chip,4.80
+laser,COHR,,Coherent,US,Laser / InP,"InP lasers, VCSELs, coherent and datacom components",InP|laser,6.90
+laser,LITE,,Lumentum,US,Datacom laser,"EML, DFB and high-speed datacom laser supply",EML|DFB,4.40
+laser,MTSI,,MACOM,US,Laser driver / TIA,"Laser drivers, TIAs and analog front-end",driver|TIA,3.60
+laser,IPGP,,IPG Photonics,US,Fiber laser,Laser technology and optical components,laser,-2.30
+laser,AXTI,,AXT,US,Substrate,Compound semiconductor substrates,substrate,5.50
+laser,IQE.L,,IQE,EU,Epitaxy,Compound semiconductor epitaxy wafers,epi,-5.80
+laser,5802.T,,住友電工,JP,Optical device,Compound semiconductor and optical components,InP|fiber,2.70
+laser,6503.T,,三菱電機,JP,Optical device,"Optical devices, lasers and industrial electronics",laser,1.40
+laser,6965.T,,浜松光子,JP,Photonics,"Photodetectors, optoelectronics and photonics devices",detector,3.30
+laser,AMS.SW,,ams OSRAM,EU,Emitter,"Emitters, sensors and photonics devices",emitter,-3.10
+laser,3105.TWO,,穩懋,TW,GaAs foundry,GaAs foundry with photonics-adjacent capabilities,GaAs,-1.60
+laser,3081.TWO,,聯亞,TW,Epitaxy,III-V epitaxy wafers for optical communications,epi|III-V,6.10
+laser,2455.TW,,全新,TW,Epitaxy,GaAs/InP epitaxy and compound semiconductor materials,epi,4.70
+laser,8086.TWO,,宏捷科,TW,Compound semiconductor,GaAs foundry and compound semiconductor devices,GaAs,2.20
+laser,4991.TWO,,環宇-KY,TW,Compound semiconductor,Compound semiconductor and optical device exposure,compound,-2.40
+laser,4979.TWO,,華星光,TW,Optical component,Optical communication components and modules,optical,7.60
+laser,688498.SH,,源傑科技,CN,Laser chip,Optical communication laser chips,laser chip,5.20
+laser,000988.SZ,,華工科技,CN,Laser / module,Laser equipment and optical communication products,laser,3.90
+component,APH,,Amphenol,US,Connector,High-speed interconnect and optical connector ecosystem,connector,2.90
+component,GLW,,Corning,US,Fiber / glass,"Optical fiber, glass and datacenter cabling",fiber,1.10
+component,TEL,,TE Connectivity,US,Connector,"Connectors, cable assemblies and sensors",connector,0.40
+component,COHR,,Coherent,US,Optical component,"Lasers, modulators and optical subassemblies",component,6.90
+component,LITE,,Lumentum,US,Optical component,Lasers and optical communication components,component,4.40
+component,FN,,Fabrinet,US,Manufacturing,Precision optical manufacturing and assembly,manufacturing,5.60
+component,3711.TW,,日月光投控,TW,Advanced packaging,Semiconductor packaging and system-in-package,packaging,1.80
+component,2449.TW,,京元電,TW,Test,IC testing services for high-speed chips,test,2.50
+component,6515.TW,,穎崴,TW,Probe card / socket,High-speed test interface and sockets,test,3.80
+component,6223.TWO,,旺矽,TW,Probe card,Probe cards and testing interface,test,4.60
+component,3037.TW,,欣興,TW,Substrate,IC substrate and advanced PCB,substrate,-0.50
+component,3189.TW,,景碩,TW,Substrate,IC substrate supplier,substrate,0.90
+component,8046.TW,,南電,TW,Substrate,IC substrate and PCB,substrate,1.60
+component,2383.TW,,台光電,TW,Copper clad laminate,High-speed CCL for AI servers and switches,CCL,3.40
+component,6442.TW,,光聖,TW,Connector / RF,Connectors and optical communication components,connector,6.70
+component,3363.TWO,,上詮,TW,Fiber component,Fiber optic components and passive devices,fiber,8.40
+component,3450.TW,,聯鈞,TW,Optical subassembly,Optical communication subassemblies and packaging,OSA,5.10
+component,6451.TW,,訊芯-KY,TW,SiP / optical packaging,System-in-package and optical communication assembly,SiP,2.30
+component,3163.TWO,,波若威,TW,Fiber component,"Fiber arrays, splitters and optical passive components",fiber,7.20
+component,6530.TWO,,創威,TW,Optical component,Optical communication component supplier,component,4.10
+component,300394.SZ,,天孚通信,CN,Optical component,Optical passive components and precision parts,component,6.20
+component,300548.SZ,,博創科技,CN,Optical component,Optical passive and active components,component,1.30
+component,601869.SH,,長飛光纖,CN,Fiber,Optical fiber and cable,fiber,-1.90
+component,600487.SH,,亨通光電,CN,Fiber / cable,Fiber cable and optical network products,fiber,0.70
+component,5801.T,,古河電工,JP,Fiber / cable,"Optical fiber, cable and network materials",fiber,2.00
+component,5803.T,,藤倉,JP,Fiber / cable,"Fiber, cable and optical interconnect products",fiber,3.70
+component,4062.T,,Ibiden,JP,Substrate,Advanced IC substrates,substrate,1.60
+component,6967.T,,新光電工,JP,Substrate,Semiconductor packages and substrates,substrate,0.20
+module,COHR,,Coherent,US,Transceiver,Datacom and telecom optical transceivers,module,6.90
+module,LITE,,Lumentum,US,Laser / module,Laser engines and optical module supply,module,4.40
+module,FN,,Fabrinet,US,Optical manufacturing,Optical module contract manufacturing,manufacturing,5.60
+module,CIEN,,Ciena,US,Coherent module,Coherent optical modules and transport platforms,coherent,2.40
+module,CSCO,,Cisco,US,Acacia module,Acacia coherent optics and pluggable modules,Acacia,1.90
+module,NOK,,Nokia,EU,Optical module,Coherent optics and network system modules,coherent,2.10
+module,4979.TWO,,華星光,TW,Transceiver,Optical communication modules and components,module,7.60
+module,4977.TW,,眾達-KY,TW,Transceiver,Optical transceiver supplier,module,5.90
+module,6442.TW,,光聖,TW,Transceiver component,Optical communication and connector products,module,6.70
+module,3450.TW,,聯鈞,TW,OSA,Optical subassemblies for transceivers,OSA,5.10
+module,3163.TWO,,波若威,TW,Passive optical,Fiber components used in modules,passive,7.20
+module,6530.TWO,,創威,TW,Optical module,Optical communication module exposure,module,4.10
+module,4908.TWO,,前鼎,TW,Optical module,Optical communication module and equipment,module,-3.40
+module,300308.SZ,,中際旭創,CN,800G / 1.6T,High-speed optical transceiver leader,800G|1.6T,8.80
+module,300502.SZ,,新易盛,CN,Transceiver,Datacom optical transceivers,module,7.90
+module,002281.SZ,,光迅科技,CN,Optical module,Optical devices and modules,module,3.00
+module,603083.SH,,劍橋科技,CN,Optical module,Optical modules and broadband equipment,module,-2.10
+module,300394.SZ,,天孚通信,CN,Optical engine parts,High-speed module precision components,component,6.20
+module,688205.SH,,德科立,CN,Optical module,Optical transceiver modules,module,4.50
+module,000988.SZ,,華工科技,CN,Optical module,Optical communication and laser products,module,3.90
+module,600498.SH,,烽火通信,CN,Optical network,Optical network systems and modules,network,1.40
+module,5802.T,,住友電工,JP,Optical device,Optical components and communication devices,module,2.70
+system,ANET,,Arista Networks,US,AI switch,AI datacenter Ethernet switches,switch,5.30
+system,CSCO,,Cisco,US,Switch / router,Enterprise and cloud networking systems,network,1.90
+system,JNPR,,Juniper Networks,US,Switch / router,Cloud and telecom networking systems,network,0.50
+system,HPE,,HPE,US,Server / networking,"AI servers, networking and cloud infrastructure",server,-0.80
+system,DELL,,Dell,US,AI server,AI server and enterprise infrastructure,server,2.20
+system,SMCI,,Supermicro,US,AI server,AI server platforms and rack-scale systems,server,-4.70
+system,CLS,,Celestica,US,ODM / EMS,Cloud hardware and networking manufacturing,ODM,4.90
+system,JBL,,Jabil,US,EMS,Electronics manufacturing for networking systems,EMS,1.50
+system,FLEX,,Flex,US,EMS,Electronics manufacturing and cloud hardware,EMS,1.00
+system,2345.TW,,智邦,TW,Switch ODM,White-box switch and cloud networking ODM,switch|ODM,6.50
+system,2382.TW,,廣達,TW,AI server,AI server and cloud infrastructure ODM,server|ODM,3.50
+system,6669.TW,,緯穎,TW,AI server,Cloud datacenter server ODM,server|ODM,4.30
+system,2317.TW,,鴻海,TW,EMS / server,AI server and system assembly,EMS,2.00
+system,2308.TW,,台達電,TW,Power / thermal,"Power, thermal and datacenter infrastructure",power|thermal,1.80
+system,3706.TW,,神達,TW,Server,Server and datacenter system integration,server,-1.40
+system,3231.TW,,緯創,TW,AI server,AI server and system integration,server,3.20
+system,2356.TW,,英業達,TW,Server,Server and cloud equipment manufacturing,server,0.90
+system,3380.TW,,明泰,TW,Networking,Networking products and broadband equipment,network,-2.50
+system,6285.TW,,啟碁,TW,Network device,Wireless and networking equipment,network,1.10
+system,000988.SZ,,華工科技,CN,Optical systems,Optical communication and laser systems,system,3.90
+system,600498.SH,,烽火通信,CN,Optical network,Optical transmission and network equipment,network,1.40
+system,000063.SZ,,中興通訊,CN,Telecom equipment,Telecom and datacenter network equipment,telecom,-0.60
+system,6701.T,,NEC,JP,Network systems,"Telecom, submarine and network systems",network,1.70
+system,6702.T,,Fujitsu,JP,ICT systems,ICT infrastructure and network systems,ICT,0.30

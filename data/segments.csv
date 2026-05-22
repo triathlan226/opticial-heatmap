@@ -1,0 +1,7 @@
+id,title,eyebrow,description
+asic,ASIC / DSP,Compute & SerDes,AI ASIC、交換晶片、DSP、SerDes 與高速互連晶片
+sipic,矽光子 / PIC,SiPh & Optical Engine,矽光子 IC、PIC、光引擎、晶圓代工與共同封裝光學
+laser,雷射 / 磊晶,Laser & Epitaxy,InP/GaAs 磊晶、EML/DFB/CW 雷射、化合物半導體
+component,元件 / 封裝,Components & Packaging,TOSA/ROSA、連接器、光纖、封裝、測試與載板
+module,光模組,Transceiver & AOC,800G/1.6T 光模組、AOC、光收發器與整合模組
+system,網通系統,Switch & ODM,交換器、路由器、AI 伺服器、系統組裝與雲端設備

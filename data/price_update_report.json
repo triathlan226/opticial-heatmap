@@ -1,0 +1,11 @@
+{
+  "updated_at": "2026-05-22T09:37:52.741720+00:00",
+  "source": "data\\companies.csv",
+  "rows": 128,
+  "quote_symbols_updated": 97,
+  "quote_symbols_failed": 2,
+  "errors": {
+    "6967.T": "HTTP Error 404: Not Found",
+    "JNPR": "HTTP Error 404: Not Found"
+  }
+}

@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>光通訊 / CPO 供應鏈熱力圖</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar__inner">
+        <div>
+          <p class="eyebrow">Optical Communication Supply Chain</p>
+          <h1 id="pageTitle">光通訊 / CPO 供應鏈熱力圖</h1>
+          <p class="subtitle" id="pageSubtitle">六大環節、跨市場上市公司、同公司可重複出現在多個供應鏈位置。</p>
+        </div>
+        <div class="metaPanel" aria-label="資料狀態">
+          <span class="metaPanel__label">資料更新</span>
+          <strong id="lastUpdated">-</strong>
+          <small id="dataNote">第一版種子資料</small>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="controlBand" aria-label="篩選工具">
+        <div class="controlBand__inner">
+          <label class="searchBox">
+            <span>搜尋</span>
+            <input id="searchInput" type="search" placeholder="公司、Ticker、角色、關鍵字">
+          </label>
+
+          <label class="selectBox">
+            <span>市場</span>
+            <select id="marketFilter">
+              <option value="all">全部市場</option>
+              <option value="TW">台股</option>
+              <option value="US">美股</option>
+              <option value="CN">陸股</option>
+              <option value="JP">日股</option>
+              <option value="EU">歐股</option>
+            </select>
+          </label>
+
+          <label class="selectBox">
+            <span>環節</span>
+            <select id="segmentFilter">
+              <option value="all">全部環節</option>
+            </select>
+          </label>
+
+          <label class="selectBox">
+            <span>排序</span>
+            <select id="sortMode">
+              <option value="chain">供應鏈位置</option>
+              <option value="gain">漲幅優先</option>
+              <option value="loss">跌幅優先</option>
+              <option value="ticker">Ticker</option>
+            </select>
+          </label>
+
+          <button class="ghostButton" id="resetButton" type="button">重設</button>
+        </div>
+      </section>
+
+      <section class="summaryBand" aria-label="摘要">
+        <div class="summaryBand__inner">
+          <div class="stat">
+            <span>格子</span>
+            <strong id="statCells">0</strong>
+          </div>
+          <div class="stat">
+            <span>公司</span>
+            <strong id="statCompanies">0</strong>
+          </div>
+          <div class="stat">
+            <span>上漲占比</span>
+            <strong id="statAdvancers">0%</strong>
+          </div>
+          <div class="stat">
+            <span>平均週變動</span>
+            <strong id="statAverage">0%</strong>
+          </div>
+          <div class="legend" aria-label="顏色圖例">
+            <span class="legend__label">跌</span>
+            <span class="legend__bar"></span>
+            <span class="legend__label">漲</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="heatmapBand" aria-label="供應鏈熱力圖">
+        <div class="heatmapScroller">
+          <div class="heatmapGrid" id="heatmapGrid"></div>
+        </div>
+      </section>
+
+      <section class="detailBand" aria-label="公司細節">
+        <div class="detailBand__inner">
+          <div>
+            <p class="eyebrow">Selected Company</p>
+            <h2 id="detailTitle">點一家公司，看它在哪些環節卡位</h2>
+            <p id="detailCopy" class="detailCopy">同一家公司若橫跨 ASIC、矽光子、元件、模組或系統，會在每個相關位置重複出現。</p>
+          </div>
+          <div class="detailList" id="detailList"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>第一版 MVP：靜態前端 + 可編輯資料表。</span>
+      <span>此頁為產品原型，不構成投資建議。</span>
+    </footer>
+
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
