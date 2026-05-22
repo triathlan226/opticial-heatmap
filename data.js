@@ -2,7 +2,7 @@ window.HEATMAP_META = {
   "title": "光通訊 / CPO 供應鏈熱力圖",
   "subtitle": "六大環節、跨市場上市公司、同公司可重複出現在多個供應鏈位置。",
   "lastUpdated": "2026-05-22",
-  "dataNote": "來源：data\\companies.csv；已更新 97 個報價代號，2 個沿用 manual_change。"
+  "dataNote": "來源：Google Sheet / remote CSV；已更新 97 個報價代號，2 個沿用 manual_change。"
 };
 
 window.SUPPLY_CHAIN_SEGMENTS = [
@@ -815,12 +815,12 @@ window.HEATMAP_COMPANIES = [
     "segment": "laser",
     "sub": "Epitaxy",
     "role": "Compound semiconductor epitaxy wafers",
-    "change": -5.43,
+    "change": -5.88,
     "tags": [
       "epi"
     ],
     "priceStatus": "ok",
-    "latestClose": 43.5,
+    "latestClose": 43.29499816894531,
     "referenceClose": 46.0,
     "priceDate": "2026-05-22",
     "referenceDate": "2026-05-15"
@@ -888,12 +888,12 @@ window.HEATMAP_COMPANIES = [
     "segment": "laser",
     "sub": "Emitter",
     "role": "Emitters, sensors and photonics devices",
-    "change": 17.39,
+    "change": 16.62,
     "tags": [
       "emitter"
     ],
     "priceStatus": "ok",
-    "latestClose": 21.399999618530273,
+    "latestClose": 21.260000228881836,
     "referenceClose": 18.229999542236328,
     "priceDate": "2026-05-22",
     "referenceDate": "2026-05-15"
