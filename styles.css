@@ -73,7 +73,7 @@ h1 {
 }
 
 .metaPanel {
-  flex: 0 0 270px;
+  flex: 0 0 330px;
   display: grid;
   gap: 7px;
   padding: 14px 16px;
@@ -107,7 +107,7 @@ h1 {
 
 .controlBand__inner {
   display: grid;
-  grid-template-columns: minmax(280px, 1.7fr) repeat(3, minmax(160px, 0.7fr)) auto;
+  grid-template-columns: minmax(280px, 1.7fr) repeat(4, minmax(140px, 0.7fr)) auto;
   gap: 12px;
   max-width: 1520px;
   margin: 0 auto;
@@ -166,7 +166,7 @@ button:focus-visible {
 
 .summaryBand__inner {
   display: grid;
-  grid-template-columns: repeat(4, minmax(120px, 1fr)) minmax(240px, 1.2fr);
+  grid-template-columns: repeat(7, minmax(110px, 1fr)) minmax(220px, 1.1fr);
   gap: 12px;
   max-width: 1520px;
   margin: 0 auto;
@@ -192,6 +192,16 @@ button:focus-visible {
 
 .stat strong {
   font-size: 24px;
+}
+
+.stat small {
+  min-height: 16px;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.25;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .legend {
@@ -282,7 +292,7 @@ button:focus-visible {
 }
 
 .heatTile {
-  min-height: 76px;
+  min-height: 88px;
   display: grid;
   gap: 4px;
   width: 100%;
@@ -314,6 +324,16 @@ button:focus-visible {
   align-items: center;
   justify-content: space-between;
   gap: 8px;
+}
+
+.heatTile__price {
+  overflow: hidden;
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 1.25;
+  opacity: 0.74;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .heatTile__top strong {
@@ -362,6 +382,24 @@ button:focus-visible {
   font-size: 11px;
   font-style: normal;
   font-weight: 900;
+}
+
+.heatTile__badges {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.heatTile__badges b {
+  height: 22px;
+  display: inline-grid;
+  place-items: center;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.34);
+  font-size: 10px;
+  line-height: 1;
 }
 
 .emptyState {
@@ -439,6 +477,14 @@ button:focus-visible {
   color: #475467;
   font-size: 13px;
   line-height: 1.55;
+}
+
+.detailItem small {
+  display: block;
+  margin-top: 6px;
+  color: #667085;
+  font-size: 12px;
+  font-weight: 800;
 }
 
 .detailItem em {

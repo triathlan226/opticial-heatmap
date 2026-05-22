@@ -17,6 +17,7 @@
         <div class="metaPanel" aria-label="資料狀態">
           <span class="metaPanel__label">資料更新</span>
           <strong id="lastUpdated">-</strong>
+          <small id="dateRange">資料區間：-</small>
           <small id="dataNote">第一版種子資料</small>
         </div>
       </div>
@@ -46,6 +47,16 @@
             <span>環節</span>
             <select id="segmentFilter">
               <option value="all">全部環節</option>
+            </select>
+          </label>
+
+          <label class="selectBox">
+            <span>報價</span>
+            <select id="statusFilter">
+              <option value="all">全部狀態</option>
+              <option value="ok">已更新</option>
+              <option value="manual">手動值</option>
+              <option value="error">沿用值</option>
             </select>
           </label>
 
@@ -80,6 +91,21 @@
           <div class="stat">
             <span>平均週變動</span>
             <strong id="statAverage">0%</strong>
+          </div>
+          <div class="stat">
+            <span>領漲</span>
+            <strong id="statBest">-</strong>
+            <small id="statBestName">-</small>
+          </div>
+          <div class="stat">
+            <span>領跌</span>
+            <strong id="statWorst">-</strong>
+            <small id="statWorstName">-</small>
+          </div>
+          <div class="stat">
+            <span>報價狀態</span>
+            <strong id="statQuality">-</strong>
+            <small id="statQualityNote">-</small>
           </div>
           <div class="legend" aria-label="顏色圖例">
             <span class="legend__label">跌</span>

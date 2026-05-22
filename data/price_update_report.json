@@ -1,11 +1,12 @@
 {
-  "updated_at": "2026-05-22T10:36:12.008559+00:00",
+  "updated_at": "2026-05-22T12:34:18.281852+00:00",
   "source": "Google Sheet / remote CSV",
-  "rows": 128,
+  "rows": 126,
   "quote_symbols_updated": 97,
-  "quote_symbols_failed": 2,
-  "errors": {
-    "6967.T": "HTTP Error 404: Not Found",
-    "JNPR": "HTTP Error 404: Not Found"
-  }
+  "quote_symbols_failed": 0,
+  "date_range": "2026-05-14 → 2026-05-22",
+  "price_status_counts": {
+    "ok": 126
+  },
+  "errors": {}
 }

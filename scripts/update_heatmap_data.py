@@ -55,9 +55,11 @@ def main() -> int:
 
     companies = build_company_payload(company_rows, quote_updates, errors, args.skip_prices)
     today = dt.date.today().isoformat()
+    summary = build_summary_meta(companies, quote_updates, errors)
     meta = {
         **DEFAULT_META,
         "lastUpdated": today,
+        **summary,
         "dataNote": build_note(source_label, args.skip_prices, len(quote_updates), len(errors)),
     }
 
@@ -70,6 +72,8 @@ def main() -> int:
             "rows": len(company_rows),
             "quote_symbols_updated": len(quote_updates),
             "quote_symbols_failed": len(errors),
+            "date_range": summary.get("dateRange"),
+            "price_status_counts": summary.get("priceStatusCounts"),
             "errors": errors,
         }
         report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -252,6 +256,50 @@ def parse_float(value: str, default: float) -> float:
 
 def split_tags(value: str) -> list[str]:
     return [tag.strip() for tag in re.split(r"[|;]", value or "") if tag.strip()]
+
+
+def build_summary_meta(
+    companies: list[dict[str, object]],
+    quote_updates: dict[str, dict[str, float | str]],
+    errors: dict[str, str],
+) -> dict[str, object]:
+    counts: dict[str, int] = {}
+    for company in companies:
+        status = str(company.get("priceStatus", "unknown"))
+        counts[status] = counts.get(status, 0) + 1
+
+    dated = [company for company in companies if company.get("referenceDate") and company.get("priceDate")]
+    if dated:
+        references = [str(company["referenceDate"]) for company in dated]
+        latest = [str(company["priceDate"]) for company in dated]
+        date_range = f"{min(references)} → {max(latest)}"
+    else:
+        date_range = ""
+
+    ranked = [company for company in companies if isinstance(company.get("change"), (int, float))]
+    top_gainer = max(ranked, key=lambda item: float(item["change"])) if ranked else None
+    top_loser = min(ranked, key=lambda item: float(item["change"])) if ranked else None
+
+    return {
+        "dateRange": date_range,
+        "totalTiles": len(companies),
+        "totalCompanies": len({str(company.get("ticker")) for company in companies if company.get("ticker")}),
+        "quoteSymbolsUpdated": len(quote_updates),
+        "quoteSymbolsFailed": len(errors),
+        "priceStatusCounts": counts,
+        "topGainer": summarize_rank(top_gainer),
+        "topLoser": summarize_rank(top_loser),
+    }
+
+
+def summarize_rank(company: dict[str, object] | None) -> dict[str, object] | None:
+    if not company:
+        return None
+    return {
+        "ticker": company.get("ticker"),
+        "name": company.get("name"),
+        "change": company.get("change"),
+    }
 
 
 def build_note(source_label: str, skip_prices: bool, updated: int, failed: int) -> str:

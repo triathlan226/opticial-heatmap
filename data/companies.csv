@@ -80,7 +80,6 @@ component,600487.SH,,亨通光電,CN,Fiber / cable,Fiber cable and optical netwo
 component,5801.T,,古河電工,JP,Fiber / cable,"Optical fiber, cable and network materials",fiber,2.00
 component,5803.T,,藤倉,JP,Fiber / cable,"Fiber, cable and optical interconnect products",fiber,3.70
 component,4062.T,,Ibiden,JP,Substrate,Advanced IC substrates,substrate,1.60
-component,6967.T,,新光電工,JP,Substrate,Semiconductor packages and substrates,substrate,0.20
 module,COHR,,Coherent,US,Transceiver,Datacom and telecom optical transceivers,module,6.90
 module,LITE,,Lumentum,US,Laser / module,Laser engines and optical module supply,module,4.40
 module,FN,,Fabrinet,US,Optical manufacturing,Optical module contract manufacturing,manufacturing,5.60
@@ -105,7 +104,6 @@ module,600498.SH,,烽火通信,CN,Optical network,Optical network systems and mo
 module,5802.T,,住友電工,JP,Optical device,Optical components and communication devices,module,2.70
 system,ANET,,Arista Networks,US,AI switch,AI datacenter Ethernet switches,switch,5.30
 system,CSCO,,Cisco,US,Switch / router,Enterprise and cloud networking systems,network,1.90
-system,JNPR,,Juniper Networks,US,Switch / router,Cloud and telecom networking systems,network,0.50
 system,HPE,,HPE,US,Server / networking,"AI servers, networking and cloud infrastructure",server,-0.80
 system,DELL,,Dell,US,AI server,AI server and enterprise infrastructure,server,2.20
 system,SMCI,,Supermicro,US,AI server,AI server platforms and rack-scale systems,server,-4.70

@@ -8,6 +8,7 @@ const state = {
   search: "",
   market: "all",
   segment: "all",
+  status: "all",
   sort: "chain",
   selectedTicker: ""
 };
@@ -20,16 +21,24 @@ const marketLabels = {
   EU: "歐"
 };
 
+const statusLabels = {
+  ok: "已更新",
+  manual: "手動",
+  error: "沿用"
+};
+
 const segmentIndex = new Map(segments.map((segment, index) => [segment.id, index]));
 const segmentById = new Map(segments.map((segment) => [segment.id, segment]));
 
 const pageTitle = document.querySelector("#pageTitle");
 const pageSubtitle = document.querySelector("#pageSubtitle");
 const lastUpdated = document.querySelector("#lastUpdated");
+const dateRange = document.querySelector("#dateRange");
 const dataNote = document.querySelector("#dataNote");
 const searchInput = document.querySelector("#searchInput");
 const marketFilter = document.querySelector("#marketFilter");
 const segmentFilter = document.querySelector("#segmentFilter");
+const statusFilter = document.querySelector("#statusFilter");
 const sortMode = document.querySelector("#sortMode");
 const resetButton = document.querySelector("#resetButton");
 const heatmapGrid = document.querySelector("#heatmapGrid");
@@ -40,11 +49,18 @@ const statCells = document.querySelector("#statCells");
 const statCompanies = document.querySelector("#statCompanies");
 const statAdvancers = document.querySelector("#statAdvancers");
 const statAverage = document.querySelector("#statAverage");
+const statBest = document.querySelector("#statBest");
+const statBestName = document.querySelector("#statBestName");
+const statWorst = document.querySelector("#statWorst");
+const statWorstName = document.querySelector("#statWorstName");
+const statQuality = document.querySelector("#statQuality");
+const statQualityNote = document.querySelector("#statQualityNote");
 
 function init() {
   pageTitle.textContent = window.HEATMAP_META.title;
   pageSubtitle.textContent = window.HEATMAP_META.subtitle;
   lastUpdated.textContent = window.HEATMAP_META.lastUpdated;
+  dateRange.textContent = window.HEATMAP_META.dateRange ? `資料區間：${window.HEATMAP_META.dateRange}` : "資料區間：-";
   dataNote.textContent = window.HEATMAP_META.dataNote;
 
   for (const segment of segments) {
@@ -69,6 +85,11 @@ function init() {
     render();
   });
 
+  statusFilter.addEventListener("change", (event) => {
+    state.status = event.target.value;
+    render();
+  });
+
   sortMode.addEventListener("change", (event) => {
     state.sort = event.target.value;
     render();
@@ -78,11 +99,13 @@ function init() {
     state.search = "";
     state.market = "all";
     state.segment = "all";
+    state.status = "all";
     state.sort = "chain";
     state.selectedTicker = "";
     searchInput.value = "";
     marketFilter.value = "all";
     segmentFilter.value = "all";
+    statusFilter.value = "all";
     sortMode.value = "chain";
     render();
   });
@@ -94,14 +117,17 @@ function getFilteredCompanies() {
   return companies
     .filter((company) => state.market === "all" || company.market === state.market)
     .filter((company) => state.segment === "all" || company.segment === state.segment)
+    .filter((company) => state.status === "all" || company.priceStatus === state.status)
     .filter((company) => {
       if (!state.search) return true;
       const text = [
         company.ticker,
+        company.quoteSymbol,
         company.name,
         company.sub,
         company.role,
         company.market,
+        company.priceStatus,
         company.tags.join(" ")
       ].join(" ").toLowerCase();
       return text.includes(state.search);
@@ -127,12 +153,23 @@ function renderStats(items) {
   const unique = new Set(items.map((item) => item.ticker));
   const advancers = items.filter((item) => item.change > 0).length;
   const average = items.length ? items.reduce((sum, item) => sum + item.change, 0) / items.length : 0;
+  const okRows = items.filter((item) => item.priceStatus === "ok").length;
+  const best = items.length ? [...items].sort((a, b) => b.change - a.change)[0] : null;
+  const worst = items.length ? [...items].sort((a, b) => a.change - b.change)[0] : null;
 
   statCells.textContent = String(items.length);
   statCompanies.textContent = String(unique.size);
   statAdvancers.textContent = items.length ? `${Math.round((advancers / items.length) * 100)}%` : "0%";
   statAverage.textContent = formatPercent(average);
   statAverage.className = average >= 0 ? "isPositive" : "isNegative";
+  statBest.textContent = best ? formatPercent(best.change) : "-";
+  statBest.className = best && best.change >= 0 ? "isPositive" : "isNegative";
+  statBestName.textContent = best ? `${best.name} ${best.ticker}` : "-";
+  statWorst.textContent = worst ? formatPercent(worst.change) : "-";
+  statWorst.className = worst && worst.change >= 0 ? "isPositive" : "isNegative";
+  statWorstName.textContent = worst ? `${worst.name} ${worst.ticker}` : "-";
+  statQuality.textContent = items.length ? `${okRows}/${items.length}` : "0/0";
+  statQualityNote.textContent = "已更新格子";
 }
 
 function renderHeatmap(items) {
@@ -179,6 +216,7 @@ function createTile(company) {
   const palette = getHeatColor(company.change);
   const isSelected = state.selectedTicker && state.selectedTicker === company.ticker;
   const isDimmed = state.selectedTicker && state.selectedTicker !== company.ticker;
+  const quoteInfo = formatQuoteInfo(company);
 
   tile.type = "button";
   tile.className = [
@@ -189,7 +227,7 @@ function createTile(company) {
   ].filter(Boolean).join(" ");
   tile.style.background = palette.background;
   tile.style.color = palette.color;
-  tile.title = `${company.name} ${company.ticker} | ${company.sub} | ${formatPercent(company.change)}`;
+  tile.title = `${company.name} ${company.ticker} | ${company.sub} | ${formatPercent(company.change)} | ${quoteInfo}`;
   tile.setAttribute("aria-label", tile.title);
   tile.innerHTML = `
     <span class="heatTile__top">
@@ -197,9 +235,13 @@ function createTile(company) {
       <em>${formatPercent(company.change)}</em>
     </span>
     <span class="heatTile__name">${company.name}</span>
+    <span class="heatTile__price">${quoteInfo}</span>
     <span class="heatTile__bottom">
       <span>${company.sub}</span>
-      <i>${marketLabels[company.market] || company.market}</i>
+      <span class="heatTile__badges">
+        ${company.priceStatus && company.priceStatus !== "ok" ? `<b>${statusLabels[company.priceStatus] || company.priceStatus}</b>` : ""}
+        <i>${marketLabels[company.market] || company.market}</i>
+      </span>
     </span>
   `;
 
@@ -221,7 +263,7 @@ function renderDetails(filteredItems) {
     const first = appearances[0];
 
     detailTitle.textContent = `${first.name} (${first.ticker})`;
-    detailCopy.textContent = `${marketLabels[first.market] || first.market}股，出現在 ${appearances.length} 個供應鏈位置。點同一格可取消高亮。`;
+    detailCopy.textContent = `${marketLabels[first.market] || first.market}股，出現在 ${appearances.length} 個供應鏈位置。${formatQuoteInfo(first)}。點同一格可取消高亮。`;
     appearances.forEach((item) => detailList.append(createDetailItem(item)));
     return;
   }
@@ -247,6 +289,7 @@ function createDetailItem(item) {
       <strong>${segment.title}</strong>
       <span>${item.sub}</span>
       <p>${item.role}</p>
+      <small>${formatQuoteInfo(item)}</small>
     </div>
     <em class="${item.change >= 0 ? "isPositive" : "isNegative"}">${formatPercent(item.change)}</em>
   `;
@@ -279,6 +322,22 @@ function getHeatColor(value) {
 function formatPercent(value) {
   const sign = value > 0 ? "+" : "";
   return `${sign}${value.toFixed(1)}%`;
+}
+
+function formatPrice(value) {
+  if (typeof value !== "number" || !Number.isFinite(value)) return "";
+  return value >= 100 ? Math.round(value).toLocaleString("en-US") : value.toFixed(2);
+}
+
+function formatQuoteInfo(company) {
+  if (company.priceStatus === "ok") {
+    const price = formatPrice(company.latestClose);
+    const range = company.referenceDate && company.priceDate ? `${company.referenceDate}→${company.priceDate}` : company.priceDate;
+    return price ? `收 ${price}｜${range}` : statusLabels.ok;
+  }
+  if (company.priceStatus === "manual") return "使用手動週變動";
+  if (company.priceStatus === "error") return `沿用手動值｜${company.quoteSymbol || company.ticker}`;
+  return "報價狀態未標示";
 }
 
 init();

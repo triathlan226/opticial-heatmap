@@ -2,7 +2,25 @@ window.HEATMAP_META = {
   "title": "光通訊 / CPO 供應鏈熱力圖",
   "subtitle": "六大環節、跨市場上市公司、同公司可重複出現在多個供應鏈位置。",
   "lastUpdated": "2026-05-22",
-  "dataNote": "來源：Google Sheet / remote CSV；已更新 97 個報價代號，2 個沿用 manual_change。"
+  "dateRange": "2026-05-14 → 2026-05-22",
+  "totalTiles": 126,
+  "totalCompanies": 97,
+  "quoteSymbolsUpdated": 97,
+  "quoteSymbolsFailed": 0,
+  "priceStatusCounts": {
+    "ok": 126
+  },
+  "topGainer": {
+    "ticker": "ALAB",
+    "name": "Astera Labs",
+    "change": 30.27
+  },
+  "topLoser": {
+    "ticker": "POET",
+    "name": "POET Technologies",
+    "change": -27.95
+  },
+  "dataNote": "來源：Google Sheet / remote CSV；已更新 97 個報價代號的週漲跌。"
 };
 
 window.SUPPLY_CHAIN_SEGMENTS = [
@@ -815,12 +833,12 @@ window.HEATMAP_COMPANIES = [
     "segment": "laser",
     "sub": "Epitaxy",
     "role": "Compound semiconductor epitaxy wafers",
-    "change": -5.88,
+    "change": -5.65,
     "tags": [
       "epi"
     ],
     "priceStatus": "ok",
-    "latestClose": 43.29499816894531,
+    "latestClose": 43.400001525878906,
     "referenceClose": 46.0,
     "priceDate": "2026-05-22",
     "referenceDate": "2026-05-15"
@@ -888,12 +906,12 @@ window.HEATMAP_COMPANIES = [
     "segment": "laser",
     "sub": "Emitter",
     "role": "Emitters, sensors and photonics devices",
-    "change": 16.62,
+    "change": 18.49,
     "tags": [
       "emitter"
     ],
     "priceStatus": "ok",
-    "latestClose": 21.260000228881836,
+    "latestClose": 21.600000381469727,
     "referenceClose": 18.229999542236328,
     "priceDate": "2026-05-22",
     "referenceDate": "2026-05-15"
@@ -1530,21 +1548,6 @@ window.HEATMAP_COMPANIES = [
     "referenceDate": "2026-05-15"
   },
   {
-    "ticker": "6967.T",
-    "quoteSymbol": "6967.T",
-    "name": "新光電工",
-    "market": "JP",
-    "segment": "component",
-    "sub": "Substrate",
-    "role": "Semiconductor packages and substrates",
-    "change": 0.2,
-    "tags": [
-      "substrate"
-    ],
-    "priceStatus": "error",
-    "priceError": "HTTP Error 404: Not Found"
-  },
-  {
     "ticker": "COHR",
     "quoteSymbol": "COHR",
     "name": "Coherent",
@@ -1976,21 +1979,6 @@ window.HEATMAP_COMPANIES = [
     "referenceClose": 115.52999877929688,
     "priceDate": "2026-05-21",
     "referenceDate": "2026-05-14"
-  },
-  {
-    "ticker": "JNPR",
-    "quoteSymbol": "JNPR",
-    "name": "Juniper Networks",
-    "market": "US",
-    "segment": "system",
-    "sub": "Switch / router",
-    "role": "Cloud and telecom networking systems",
-    "change": 0.5,
-    "tags": [
-      "network"
-    ],
-    "priceStatus": "error",
-    "priceError": "HTTP Error 404: Not Found"
   },
   {
     "ticker": "HPE",
