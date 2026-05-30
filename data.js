@@ -1,8 +1,8 @@
 window.HEATMAP_META = {
   "title": "光通訊 / CPO 供應鏈熱力圖",
   "subtitle": "六大環節、跨市場上市公司、同公司可重複出現在多個供應鏈位置。",
-  "lastUpdated": "2026-05-23",
-  "dateRange": "2026-05-15 → 2026-05-22",
+  "lastUpdated": "2026-05-30",
+  "dateRange": "2026-05-22 → 2026-05-29",
   "totalTiles": 126,
   "totalCompanies": 97,
   "quoteSymbolsUpdated": 97,
@@ -11,14 +11,14 @@ window.HEATMAP_META = {
     "ok": 126
   },
   "topGainer": {
-    "ticker": "ALAB",
-    "name": "Astera Labs",
-    "change": 31.89
+    "ticker": "DELL",
+    "name": "Dell",
+    "change": 42.59
   },
   "topLoser": {
-    "ticker": "5803.T",
-    "name": "藤倉",
-    "change": -16.65
+    "ticker": "AXTI",
+    "name": "AXT",
+    "change": -26.75
   },
   "dataNote": "來源：Google Sheet / remote CSV；已更新 97 個報價代號的週漲跌。"
 };
@@ -71,16 +71,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "asic",
     "sub": "Switch ASIC",
     "role": "Tomahawk / Jericho switch silicon",
-    "change": -2.6,
+    "change": 7.88,
     "tags": [
       "ASIC",
       "switch"
     ],
     "priceStatus": "ok",
-    "latestClose": 414.1400146484375,
-    "referenceClose": 425.19000244140625,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 446.7699890136719,
+    "referenceClose": 414.1400146484375,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "NVDA",
@@ -90,16 +90,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "asic",
     "sub": "GPU / Network ASIC",
     "role": "GPU, NVLink, Spectrum-X ecosystem",
-    "change": -4.43,
+    "change": -1.95,
     "tags": [
       "GPU",
       "networking"
     ],
     "priceStatus": "ok",
-    "latestClose": 215.3300018310547,
-    "referenceClose": 225.32000732421875,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 211.13999938964844,
+    "referenceClose": 215.3300018310547,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "MRVL",
@@ -109,16 +109,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "asic",
     "sub": "DSP / PAM4",
     "role": "Optical DSP, custom silicon, DCI chips",
-    "change": 10.99,
+    "change": 4.42,
     "tags": [
       "DSP",
       "custom silicon"
     ],
     "priceStatus": "ok",
-    "latestClose": 196.3300018310547,
-    "referenceClose": 176.88999938964844,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 205.0,
+    "referenceClose": 196.3300018310547,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "CRDO",
@@ -128,16 +128,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "asic",
     "sub": "Retimer / DSP",
     "role": "High-speed connectivity and optical DSP",
-    "change": 26.86,
+    "change": 8.07,
     "tags": [
       "DSP",
       "retimer"
     ],
     "priceStatus": "ok",
-    "latestClose": 218.41000366210938,
-    "referenceClose": 172.1699981689453,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 236.02999877929688,
+    "referenceClose": 218.41000366210938,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "ALAB",
@@ -147,16 +147,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "asic",
     "sub": "PCIe / CXL",
     "role": "AI data-center connectivity silicon",
-    "change": 31.89,
+    "change": 11.72,
     "tags": [
       "retimer",
       "CXL"
     ],
     "priceStatus": "ok",
-    "latestClose": 306.8800048828125,
-    "referenceClose": 232.67999267578125,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 342.8500061035156,
+    "referenceClose": 306.8800048828125,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "MTSI",
@@ -166,16 +166,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "asic",
     "sub": "Analog IC",
     "role": "Laser drivers, TIAs, high-speed analog",
-    "change": 2.76,
+    "change": -5.53,
     "tags": [
       "driver",
       "TIA"
     ],
     "priceStatus": "ok",
-    "latestClose": 385.9800109863281,
-    "referenceClose": 375.6000061035156,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 364.6400146484375,
+    "referenceClose": 385.9800109863281,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "SMTC",
@@ -185,15 +185,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "asic",
     "sub": "Signal IC",
     "role": "Signal integrity and optical analog ICs",
-    "change": 13.91,
+    "change": -2.7,
     "tags": [
       "signal"
     ],
     "priceStatus": "ok",
-    "latestClose": 156.77999877929688,
-    "referenceClose": 137.63999938964844,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 152.5399932861328,
+    "referenceClose": 156.77999877929688,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "CSCO",
@@ -203,16 +203,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "asic",
     "sub": "Network silicon",
     "role": "Silicon One and Acacia optical stack",
-    "change": 1.86,
+    "change": 0.01,
     "tags": [
       "switch",
       "acacia"
     ],
     "priceStatus": "ok",
-    "latestClose": 120.41000366210938,
-    "referenceClose": 118.20999908447266,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 120.41999816894531,
+    "referenceClose": 120.41000366210938,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "CIEN",
@@ -222,16 +222,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "asic",
     "sub": "Coherent DSP",
     "role": "WaveLogic coherent DSP and systems",
-    "change": 5.28,
+    "change": -0.6,
     "tags": [
       "coherent",
       "DSP"
     ],
     "priceStatus": "ok",
-    "latestClose": 583.739990234375,
-    "referenceClose": 554.4600219726562,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 580.22998046875,
+    "referenceClose": 583.739990234375,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "AMD",
@@ -241,15 +241,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "asic",
     "sub": "AI accelerator",
     "role": "AI accelerators and adaptive compute",
-    "change": 10.24,
+    "change": 10.39,
     "tags": [
       "accelerator"
     ],
     "priceStatus": "ok",
-    "latestClose": 467.510009765625,
-    "referenceClose": 424.1000061035156,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 516.0999755859375,
+    "referenceClose": 467.510009765625,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "INTC",
@@ -259,16 +259,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "asic",
     "sub": "Foundry / I/O",
     "role": "Foundry, Ethernet, historical silicon photonics",
-    "change": 10.18,
+    "change": -4.31,
     "tags": [
       "foundry",
       "ethernet"
     ],
     "priceStatus": "ok",
-    "latestClose": 119.83999633789062,
-    "referenceClose": 108.7699966430664,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 114.68000030517578,
+    "referenceClose": 119.83999633789062,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "QCOM",
@@ -278,15 +278,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "asic",
     "sub": "Connectivity IC",
     "role": "High-speed connectivity and edge AI silicon",
-    "change": 18.2,
+    "change": 5.4,
     "tags": [
       "connectivity"
     ],
     "priceStatus": "ok",
-    "latestClose": 238.16000366210938,
-    "referenceClose": 201.49000549316406,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 251.02000427246094,
+    "referenceClose": 238.16000366210938,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "3661.TW",
@@ -296,16 +296,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "asic",
     "sub": "ASIC design",
     "role": "Advanced-node custom ASIC design service",
-    "change": 6.3,
+    "change": -9.81,
     "tags": [
       "ASIC",
       "design"
     ],
     "priceStatus": "ok",
-    "latestClose": 4895.0,
-    "referenceClose": 4605.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 4415.0,
+    "referenceClose": 4895.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "3443.TW",
@@ -315,16 +315,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "asic",
     "sub": "ASIC design",
     "role": "GUC ASIC design and implementation",
-    "change": 6.09,
+    "change": -9.14,
     "tags": [
       "ASIC",
       "design"
     ],
     "priceStatus": "ok",
-    "latestClose": 5140.0,
-    "referenceClose": 4845.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 4670.0,
+    "referenceClose": 5140.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "2454.TW",
@@ -334,15 +334,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "asic",
     "sub": "Connectivity SoC",
     "role": "Networking, SerDes and edge AI chip exposure",
-    "change": 18.4,
+    "change": 11.66,
     "tags": [
       "SoC"
     ],
     "priceStatus": "ok",
-    "latestClose": 3860.0,
-    "referenceClose": 3260.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 4310.0,
+    "referenceClose": 3860.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "5274.TWO",
@@ -352,15 +352,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "asic",
     "sub": "BMC",
     "role": "Server management silicon",
-    "change": 3.4,
+    "change": 6.58,
     "tags": [
       "server"
     ],
     "priceStatus": "ok",
-    "latestClose": 17780.0,
-    "referenceClose": 17195.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 18950.0,
+    "referenceClose": 17780.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "688536.SH",
@@ -370,15 +370,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "asic",
     "sub": "Analog IC",
     "role": "Analog and signal-chain ICs",
-    "change": 0.87,
+    "change": 3.35,
     "tags": [
       "analog"
     ],
     "priceStatus": "ok",
-    "latestClose": 298.989990234375,
-    "referenceClose": 296.3999938964844,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 309.010009765625,
+    "referenceClose": 298.989990234375,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "688498.SH",
@@ -388,15 +388,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "asic",
     "sub": "Laser driver link",
     "role": "Optical chip supplier with upstream exposure",
-    "change": -0.82,
+    "change": 6.23,
     "tags": [
       "optical chip"
     ],
     "priceStatus": "ok",
-    "latestClose": 1066.4000244140625,
-    "referenceClose": 1075.17236328125,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 1132.7900390625,
+    "referenceClose": 1066.4000244140625,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "2330.TW",
@@ -406,16 +406,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "sipic",
     "sub": "Foundry",
     "role": "Advanced-node and packaging platform for CPO ecosystem",
-    "change": -0.44,
+    "change": 4.43,
     "tags": [
       "foundry",
       "CoWoS"
     ],
     "priceStatus": "ok",
-    "latestClose": 2255.0,
-    "referenceClose": 2265.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 2355.0,
+    "referenceClose": 2255.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "AVGO",
@@ -425,16 +425,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "sipic",
     "sub": "Co-packaged optics",
     "role": "CPO roadmap and switch silicon integration",
-    "change": -2.6,
+    "change": 7.88,
     "tags": [
       "CPO",
       "switch"
     ],
     "priceStatus": "ok",
-    "latestClose": 414.1400146484375,
-    "referenceClose": 425.19000244140625,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 446.7699890136719,
+    "referenceClose": 414.1400146484375,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "NVDA",
@@ -444,16 +444,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "sipic",
     "sub": "Optical I/O ecosystem",
     "role": "AI cluster architecture drives optical I/O demand",
-    "change": -4.43,
+    "change": -1.95,
     "tags": [
       "AI",
       "optical I/O"
     ],
     "priceStatus": "ok",
-    "latestClose": 215.3300018310547,
-    "referenceClose": 225.32000732421875,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 211.13999938964844,
+    "referenceClose": 215.3300018310547,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "MRVL",
@@ -463,16 +463,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "sipic",
     "sub": "Optical platform",
     "role": "DSP plus silicon photonics partnership ecosystem",
-    "change": 10.99,
+    "change": 4.42,
     "tags": [
       "DSP",
       "SiPh"
     ],
     "priceStatus": "ok",
-    "latestClose": 196.3300018310547,
-    "referenceClose": 176.88999938964844,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 205.0,
+    "referenceClose": 196.3300018310547,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "INTC",
@@ -482,16 +482,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "sipic",
     "sub": "Silicon photonics",
     "role": "Integrated silicon photonics and foundry capabilities",
-    "change": 10.18,
+    "change": -4.31,
     "tags": [
       "SiPh",
       "foundry"
     ],
     "priceStatus": "ok",
-    "latestClose": 119.83999633789062,
-    "referenceClose": 108.7699966430664,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 114.68000030517578,
+    "referenceClose": 119.83999633789062,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "COHR",
@@ -501,16 +501,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "sipic",
     "sub": "Optical engine",
     "role": "Lasers, transceivers and optical engine building blocks",
-    "change": -1.28,
+    "change": -4.26,
     "tags": [
       "laser",
       "module"
     ],
     "priceStatus": "ok",
-    "latestClose": 377.57000732421875,
-    "referenceClose": 382.45001220703125,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 361.4700012207031,
+    "referenceClose": 377.57000732421875,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "LITE",
@@ -520,16 +520,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "sipic",
     "sub": "Optical engine",
     "role": "Datacom lasers and optical components",
-    "change": -2.45,
+    "change": -9.71,
     "tags": [
       "laser",
       "datacom"
     ],
     "priceStatus": "ok",
-    "latestClose": 946.9000244140625,
-    "referenceClose": 970.7000122070312,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 854.9600219726562,
+    "referenceClose": 946.9000244140625,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "STM",
@@ -539,15 +539,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "sipic",
     "sub": "Photonics platform",
     "role": "Photonics and advanced semiconductor platform exposure",
-    "change": 8.87,
+    "change": 3.66,
     "tags": [
       "photonics"
     ],
     "priceStatus": "ok",
-    "latestClose": 66.86000061035156,
-    "referenceClose": 61.40999984741211,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 69.30999755859375,
+    "referenceClose": 66.86000061035156,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "GFS",
@@ -557,16 +557,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "sipic",
     "sub": "Specialty foundry",
     "role": "Silicon photonics and specialty process platform",
-    "change": 20.57,
+    "change": -6.62,
     "tags": [
       "foundry",
       "SiPh"
     ],
     "priceStatus": "ok",
-    "latestClose": 85.63999938964844,
-    "referenceClose": 71.02999877929688,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 79.97000122070312,
+    "referenceClose": 85.63999938964844,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "TSEM",
@@ -576,15 +576,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "sipic",
     "sub": "Specialty foundry",
     "role": "Analog, photonics and specialty manufacturing",
-    "change": 3.45,
+    "change": -9.95,
     "tags": [
       "foundry"
     ],
     "priceStatus": "ok",
-    "latestClose": 283.42999267578125,
-    "referenceClose": 273.9800109863281,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 255.22999572753906,
+    "referenceClose": 283.42999267578125,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "NOK",
@@ -594,15 +594,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "sipic",
     "sub": "Optical systems",
     "role": "Photonic service engines and coherent optics",
-    "change": 10.9,
+    "change": -4.07,
     "tags": [
       "coherent"
     ],
     "priceStatus": "ok",
-    "latestClose": 15.470000267028809,
-    "referenceClose": 13.949999809265137,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 14.84000015258789,
+    "referenceClose": 15.470000267028809,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "CSCO",
@@ -612,16 +612,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "sipic",
     "sub": "Acacia optics",
     "role": "Coherent modules and optical interconnect roadmap",
-    "change": 1.86,
+    "change": 0.01,
     "tags": [
       "Acacia",
       "coherent"
     ],
     "priceStatus": "ok",
-    "latestClose": 120.41000366210938,
-    "referenceClose": 118.20999908447266,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 120.41999816894531,
+    "referenceClose": 120.41000366210938,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "CIEN",
@@ -631,15 +631,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "sipic",
     "sub": "Coherent optics",
     "role": "Coherent optical engine and network platforms",
-    "change": 5.28,
+    "change": -0.6,
     "tags": [
       "coherent"
     ],
     "priceStatus": "ok",
-    "latestClose": 583.739990234375,
-    "referenceClose": 554.4600219726562,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 580.22998046875,
+    "referenceClose": 583.739990234375,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "POET",
@@ -649,15 +649,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "sipic",
     "sub": "Optical interposer",
     "role": "Optical interposer platform for transceivers",
-    "change": -8.64,
+    "change": -15.76,
     "tags": [
       "interposer"
     ],
     "priceStatus": "ok",
-    "latestClose": 14.59000015258789,
-    "referenceClose": 15.970000267028809,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 12.289999961853027,
+    "referenceClose": 14.59000015258789,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "LWLG",
@@ -667,15 +667,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "sipic",
     "sub": "EO polymer",
     "role": "Electro-optic polymer material platform",
-    "change": -5.86,
+    "change": -15.49,
     "tags": [
       "material"
     ],
     "priceStatus": "ok",
-    "latestClose": 12.850000381469727,
-    "referenceClose": 13.649999618530273,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 10.859999656677246,
+    "referenceClose": 12.850000381469727,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "4966.TWO",
@@ -685,15 +685,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "sipic",
     "sub": "High-speed interface",
     "role": "High-speed interface ICs and data transmission",
-    "change": -0.62,
+    "change": 4.91,
     "tags": [
       "interface"
     ],
     "priceStatus": "ok",
-    "latestClose": 795.0,
-    "referenceClose": 800.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 834.0,
+    "referenceClose": 795.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "6789.TW",
@@ -703,15 +703,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "sipic",
     "sub": "Optical process",
     "role": "Optical semiconductor process and sensor platform",
-    "change": -5.28,
+    "change": -5.4,
     "tags": [
       "process"
     ],
     "priceStatus": "ok",
-    "latestClose": 556.0,
-    "referenceClose": 587.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 526.0,
+    "referenceClose": 556.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "688313.SH",
@@ -721,16 +721,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "sipic",
     "sub": "PLC / optical chip",
     "role": "PLC splitter, AWG and optical chip supplier",
-    "change": -0.5,
+    "change": -6.89,
     "tags": [
       "PLC",
       "chip"
     ],
     "priceStatus": "ok",
-    "latestClose": 174.72000122070312,
-    "referenceClose": 175.60000610351562,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 162.69000244140625,
+    "referenceClose": 174.72000122070312,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "COHR",
@@ -740,16 +740,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "laser",
     "sub": "Laser / InP",
     "role": "InP lasers, VCSELs, coherent and datacom components",
-    "change": -1.28,
+    "change": -4.26,
     "tags": [
       "InP",
       "laser"
     ],
     "priceStatus": "ok",
-    "latestClose": 377.57000732421875,
-    "referenceClose": 382.45001220703125,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 361.4700012207031,
+    "referenceClose": 377.57000732421875,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "LITE",
@@ -759,16 +759,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "laser",
     "sub": "Datacom laser",
     "role": "EML, DFB and high-speed datacom laser supply",
-    "change": -2.45,
+    "change": -9.71,
     "tags": [
       "EML",
       "DFB"
     ],
     "priceStatus": "ok",
-    "latestClose": 946.9000244140625,
-    "referenceClose": 970.7000122070312,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 854.9600219726562,
+    "referenceClose": 946.9000244140625,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "MTSI",
@@ -778,16 +778,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "laser",
     "sub": "Laser driver / TIA",
     "role": "Laser drivers, TIAs and analog front-end",
-    "change": 2.76,
+    "change": -5.53,
     "tags": [
       "driver",
       "TIA"
     ],
     "priceStatus": "ok",
-    "latestClose": 385.9800109863281,
-    "referenceClose": 375.6000061035156,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 364.6400146484375,
+    "referenceClose": 385.9800109863281,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "IPGP",
@@ -797,15 +797,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "laser",
     "sub": "Fiber laser",
     "role": "Laser technology and optical components",
-    "change": 15.8,
+    "change": -3.76,
     "tags": [
       "laser"
     ],
     "priceStatus": "ok",
-    "latestClose": 119.0,
-    "referenceClose": 102.76000213623047,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 114.5199966430664,
+    "referenceClose": 119.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "AXTI",
@@ -815,15 +815,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "laser",
     "sub": "Substrate",
     "role": "Compound semiconductor substrates",
-    "change": 13.77,
+    "change": -26.75,
     "tags": [
       "substrate"
     ],
     "priceStatus": "ok",
-    "latestClose": 140.8300018310547,
-    "referenceClose": 123.77999877929688,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 103.16000366210938,
+    "referenceClose": 140.8300018310547,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "IQE.L",
@@ -833,15 +833,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "laser",
     "sub": "Epitaxy",
     "role": "Compound semiconductor epitaxy wafers",
-    "change": -0.54,
+    "change": 3.83,
     "tags": [
       "epi"
     ],
     "priceStatus": "ok",
-    "latestClose": 45.75,
-    "referenceClose": 46.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 47.5,
+    "referenceClose": 45.75,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "5802.T",
@@ -851,16 +851,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "laser",
     "sub": "Optical device",
     "role": "Compound semiconductor and optical components",
-    "change": 7.65,
+    "change": 6.47,
     "tags": [
       "InP",
       "fiber"
     ],
     "priceStatus": "ok",
-    "latestClose": 11820.0,
-    "referenceClose": 10980.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 12585.0,
+    "referenceClose": 11820.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "6503.T",
@@ -870,15 +870,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "laser",
     "sub": "Optical device",
     "role": "Optical devices, lasers and industrial electronics",
-    "change": -1.79,
+    "change": 4.08,
     "tags": [
       "laser"
     ],
     "priceStatus": "ok",
-    "latestClose": 6301.0,
-    "referenceClose": 6416.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 6558.0,
+    "referenceClose": 6301.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "6965.T",
@@ -888,15 +888,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "laser",
     "sub": "Photonics",
     "role": "Photodetectors, optoelectronics and photonics devices",
-    "change": 9.54,
+    "change": -1.63,
     "tags": [
       "detector"
     ],
     "priceStatus": "ok",
-    "latestClose": 2910.5,
-    "referenceClose": 2657.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 2863.0,
+    "referenceClose": 2910.5,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "AMS.SW",
@@ -906,15 +906,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "laser",
     "sub": "Emitter",
     "role": "Emitters, sensors and photonics devices",
-    "change": 26.17,
+    "change": -12.43,
     "tags": [
       "emitter"
     ],
     "priceStatus": "ok",
-    "latestClose": 23.0,
-    "referenceClose": 18.229999542236328,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 20.139999389648438,
+    "referenceClose": 23.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "3105.TWO",
@@ -924,15 +924,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "laser",
     "sub": "GaAs foundry",
     "role": "GaAs foundry with photonics-adjacent capabilities",
-    "change": 15.81,
+    "change": -0.75,
     "tags": [
       "GaAs"
     ],
     "priceStatus": "ok",
-    "latestClose": 531.0,
-    "referenceClose": 458.5,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 527.0,
+    "referenceClose": 531.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "3081.TWO",
@@ -942,16 +942,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "laser",
     "sub": "Epitaxy",
     "role": "III-V epitaxy wafers for optical communications",
-    "change": 2.07,
+    "change": -3.51,
     "tags": [
       "epi",
       "III-V"
     ],
     "priceStatus": "ok",
-    "latestClose": 2710.0,
-    "referenceClose": 2655.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 2615.0,
+    "referenceClose": 2710.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "2455.TW",
@@ -961,15 +961,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "laser",
     "sub": "Epitaxy",
     "role": "GaAs/InP epitaxy and compound semiconductor materials",
-    "change": 18.55,
+    "change": -0.71,
     "tags": [
       "epi"
     ],
     "priceStatus": "ok",
-    "latestClose": 425.0,
-    "referenceClose": 358.5,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 422.0,
+    "referenceClose": 425.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "8086.TWO",
@@ -979,15 +979,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "laser",
     "sub": "Compound semiconductor",
     "role": "GaAs foundry and compound semiconductor devices",
-    "change": 6.33,
+    "change": 5.96,
     "tags": [
       "GaAs"
     ],
     "priceStatus": "ok",
-    "latestClose": 159.5,
-    "referenceClose": 150.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 169.0,
+    "referenceClose": 159.5,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "4991.TWO",
@@ -997,15 +997,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "laser",
     "sub": "Compound semiconductor",
     "role": "Compound semiconductor and optical device exposure",
-    "change": 26.79,
+    "change": -10.32,
     "tags": [
       "compound"
     ],
     "priceStatus": "ok",
-    "latestClose": 814.0,
-    "referenceClose": 642.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 730.0,
+    "referenceClose": 814.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "4979.TWO",
@@ -1015,15 +1015,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "laser",
     "sub": "Optical component",
     "role": "Optical communication components and modules",
-    "change": 18.64,
+    "change": -0.95,
     "tags": [
       "optical"
     ],
     "priceStatus": "ok",
-    "latestClose": 630.0,
-    "referenceClose": 531.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 624.0,
+    "referenceClose": 630.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "688498.SH",
@@ -1033,15 +1033,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "laser",
     "sub": "Laser chip",
     "role": "Optical communication laser chips",
-    "change": -0.82,
+    "change": 6.23,
     "tags": [
       "laser chip"
     ],
     "priceStatus": "ok",
-    "latestClose": 1066.4000244140625,
-    "referenceClose": 1075.17236328125,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 1132.7900390625,
+    "referenceClose": 1066.4000244140625,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "000988.SZ",
@@ -1051,15 +1051,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "laser",
     "sub": "Laser / module",
     "role": "Laser equipment and optical communication products",
-    "change": 16.67,
+    "change": -2.81,
     "tags": [
       "laser"
     ],
     "priceStatus": "ok",
-    "latestClose": 156.30999755859375,
-    "referenceClose": 133.97999572753906,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 151.9199981689453,
+    "referenceClose": 156.30999755859375,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "APH",
@@ -1069,15 +1069,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "component",
     "sub": "Connector",
     "role": "High-speed interconnect and optical connector ecosystem",
-    "change": 5.65,
+    "change": 12.65,
     "tags": [
       "connector"
     ],
     "priceStatus": "ok",
-    "latestClose": 132.05999755859375,
-    "referenceClose": 125.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 148.75999450683594,
+    "referenceClose": 132.05999755859375,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "GLW",
@@ -1087,15 +1087,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "component",
     "sub": "Fiber / glass",
     "role": "Optical fiber, glass and datacenter cabling",
-    "change": 1.17,
+    "change": -6.64,
     "tags": [
       "fiber"
     ],
     "priceStatus": "ok",
-    "latestClose": 194.0500030517578,
-    "referenceClose": 191.80999755859375,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 181.16000366210938,
+    "referenceClose": 194.0500030517578,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "TEL",
@@ -1105,15 +1105,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "component",
     "sub": "Connector",
     "role": "Connectors, cable assemblies and sensors",
-    "change": -1.14,
+    "change": 5.24,
     "tags": [
       "connector"
     ],
     "priceStatus": "ok",
-    "latestClose": 202.77999877929688,
-    "referenceClose": 205.11000061035156,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 213.41000366210938,
+    "referenceClose": 202.77999877929688,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "COHR",
@@ -1123,15 +1123,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "component",
     "sub": "Optical component",
     "role": "Lasers, modulators and optical subassemblies",
-    "change": -1.28,
+    "change": -4.26,
     "tags": [
       "component"
     ],
     "priceStatus": "ok",
-    "latestClose": 377.57000732421875,
-    "referenceClose": 382.45001220703125,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 361.4700012207031,
+    "referenceClose": 377.57000732421875,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "LITE",
@@ -1141,15 +1141,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "component",
     "sub": "Optical component",
     "role": "Lasers and optical communication components",
-    "change": -2.45,
+    "change": -9.71,
     "tags": [
       "component"
     ],
     "priceStatus": "ok",
-    "latestClose": 946.9000244140625,
-    "referenceClose": 970.7000122070312,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 854.9600219726562,
+    "referenceClose": 946.9000244140625,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "FN",
@@ -1159,15 +1159,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "component",
     "sub": "Manufacturing",
     "role": "Precision optical manufacturing and assembly",
-    "change": -2.52,
+    "change": -7.06,
     "tags": [
       "manufacturing"
     ],
     "priceStatus": "ok",
-    "latestClose": 703.8599853515625,
-    "referenceClose": 722.0399780273438,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 654.1599731445312,
+    "referenceClose": 703.8599853515625,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "3711.TW",
@@ -1177,15 +1177,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "component",
     "sub": "Advanced packaging",
     "role": "Semiconductor packaging and system-in-package",
-    "change": 2.56,
+    "change": 8.91,
     "tags": [
       "packaging"
     ],
     "priceStatus": "ok",
-    "latestClose": 561.0,
-    "referenceClose": 547.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 611.0,
+    "referenceClose": 561.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "2449.TW",
@@ -1195,15 +1195,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "component",
     "sub": "Test",
     "role": "IC testing services for high-speed chips",
-    "change": -1.17,
+    "change": 10.98,
     "tags": [
       "test"
     ],
     "priceStatus": "ok",
-    "latestClose": 296.0,
-    "referenceClose": 299.5,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 328.5,
+    "referenceClose": 296.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "6515.TW",
@@ -1213,15 +1213,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "component",
     "sub": "Probe card / socket",
     "role": "High-speed test interface and sockets",
-    "change": -11.04,
+    "change": -0.4,
     "tags": [
       "test"
     ],
     "priceStatus": "ok",
-    "latestClose": 8700.0,
-    "referenceClose": 9780.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 8665.0,
+    "referenceClose": 8700.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "6223.TWO",
@@ -1231,15 +1231,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "component",
     "sub": "Probe card",
     "role": "Probe cards and testing interface",
-    "change": 2.37,
+    "change": -1.24,
     "tags": [
       "test"
     ],
     "priceStatus": "ok",
-    "latestClose": 6035.0,
-    "referenceClose": 5895.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 5960.0,
+    "referenceClose": 6035.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "3037.TW",
@@ -1249,15 +1249,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "component",
     "sub": "Substrate",
     "role": "IC substrate and advanced PCB",
-    "change": 18.15,
+    "change": 8.76,
     "tags": [
       "substrate"
     ],
     "priceStatus": "ok",
-    "latestClose": 970.0,
-    "referenceClose": 821.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 1055.0,
+    "referenceClose": 970.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "3189.TW",
@@ -1267,15 +1267,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "component",
     "sub": "Substrate",
     "role": "IC substrate supplier",
-    "change": 25.31,
+    "change": 19.7,
     "tags": [
       "substrate"
     ],
     "priceStatus": "ok",
-    "latestClose": 609.0,
-    "referenceClose": 486.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 729.0,
+    "referenceClose": 609.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "8046.TW",
@@ -1285,15 +1285,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "component",
     "sub": "Substrate",
     "role": "IC substrate and PCB",
-    "change": 18.83,
+    "change": -9.21,
     "tags": [
       "substrate"
     ],
     "priceStatus": "ok",
-    "latestClose": 934.0,
-    "referenceClose": 786.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 848.0,
+    "referenceClose": 934.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "2383.TW",
@@ -1303,15 +1303,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "component",
     "sub": "Copper clad laminate",
     "role": "High-speed CCL for AI servers and switches",
-    "change": 8.45,
+    "change": 2.3,
     "tags": [
       "CCL"
     ],
     "priceStatus": "ok",
-    "latestClose": 5005.0,
-    "referenceClose": 4615.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 5120.0,
+    "referenceClose": 5005.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "6442.TW",
@@ -1321,15 +1321,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "component",
     "sub": "Connector / RF",
     "role": "Connectors and optical communication components",
-    "change": 7.76,
+    "change": -1.6,
     "tags": [
       "connector"
     ],
     "priceStatus": "ok",
-    "latestClose": 1875.0,
-    "referenceClose": 1740.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 1845.0,
+    "referenceClose": 1875.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "3363.TWO",
@@ -1339,15 +1339,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "component",
     "sub": "Fiber component",
     "role": "Fiber optic components and passive devices",
-    "change": 1.31,
+    "change": -6.46,
     "tags": [
       "fiber"
     ],
     "priceStatus": "ok",
-    "latestClose": 852.0,
-    "referenceClose": 841.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 797.0,
+    "referenceClose": 852.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "3450.TW",
@@ -1357,15 +1357,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "component",
     "sub": "Optical subassembly",
     "role": "Optical communication subassemblies and packaging",
-    "change": 16.18,
+    "change": 6.75,
     "tags": [
       "OSA"
     ],
     "priceStatus": "ok",
-    "latestClose": 459.5,
-    "referenceClose": 395.5,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 490.5,
+    "referenceClose": 459.5,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "6451.TW",
@@ -1375,15 +1375,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "component",
     "sub": "SiP / optical packaging",
     "role": "System-in-package and optical communication assembly",
-    "change": -9.19,
+    "change": 8.78,
     "tags": [
       "SiP"
     ],
     "priceStatus": "ok",
-    "latestClose": 524.0,
-    "referenceClose": 577.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 570.0,
+    "referenceClose": 524.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "3163.TWO",
@@ -1393,15 +1393,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "component",
     "sub": "Fiber component",
     "role": "Fiber arrays, splitters and optical passive components",
-    "change": 20.53,
+    "change": -10.04,
     "tags": [
       "fiber"
     ],
     "priceStatus": "ok",
-    "latestClose": 1145.0,
-    "referenceClose": 950.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 1030.0,
+    "referenceClose": 1145.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "6530.TWO",
@@ -1411,15 +1411,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "component",
     "sub": "Optical component",
     "role": "Optical communication component supplier",
-    "change": 2.29,
+    "change": -3.59,
     "tags": [
       "component"
     ],
     "priceStatus": "ok",
-    "latestClose": 111.5,
-    "referenceClose": 109.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 107.5,
+    "referenceClose": 111.5,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "300394.SZ",
@@ -1429,15 +1429,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "component",
     "sub": "Optical component",
     "role": "Optical passive components and precision parts",
-    "change": -6.87,
+    "change": 22.2,
     "tags": [
       "component"
     ],
     "priceStatus": "ok",
-    "latestClose": 372.5,
-    "referenceClose": 399.989990234375,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 455.20001220703125,
+    "referenceClose": 372.5,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "300548.SZ",
@@ -1447,15 +1447,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "component",
     "sub": "Optical component",
     "role": "Optical passive and active components",
-    "change": -4.42,
+    "change": 3.71,
     "tags": [
       "component"
     ],
     "priceStatus": "ok",
-    "latestClose": 240.3000030517578,
-    "referenceClose": 251.39999389648438,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 249.2100067138672,
+    "referenceClose": 240.3000030517578,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "601869.SH",
@@ -1465,15 +1465,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "component",
     "sub": "Fiber",
     "role": "Optical fiber and cable",
-    "change": 3.79,
+    "change": 3.64,
     "tags": [
       "fiber"
     ],
     "priceStatus": "ok",
-    "latestClose": 388.6600036621094,
-    "referenceClose": 374.45001220703125,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 402.80999755859375,
+    "referenceClose": 388.6600036621094,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "600487.SH",
@@ -1483,15 +1483,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "component",
     "sub": "Fiber / cable",
     "role": "Fiber cable and optical network products",
-    "change": 4.66,
+    "change": 5.57,
     "tags": [
       "fiber"
     ],
     "priceStatus": "ok",
-    "latestClose": 73.05000305175781,
-    "referenceClose": 69.80000305175781,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 77.12000274658203,
+    "referenceClose": 73.05000305175781,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "5801.T",
@@ -1501,15 +1501,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "component",
     "sub": "Fiber / cable",
     "role": "Optical fiber, cable and network materials",
-    "change": -1.52,
+    "change": -2.96,
     "tags": [
       "fiber"
     ],
     "priceStatus": "ok",
-    "latestClose": 53650.0,
-    "referenceClose": 54480.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 52060.0,
+    "referenceClose": 53650.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "5803.T",
@@ -1519,15 +1519,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "component",
     "sub": "Fiber / cable",
     "role": "Fiber, cable and optical interconnect products",
-    "change": -16.65,
+    "change": -1.63,
     "tags": [
       "fiber"
     ],
     "priceStatus": "ok",
-    "latestClose": 4850.0,
-    "referenceClose": 5819.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 4771.0,
+    "referenceClose": 4850.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "4062.T",
@@ -1537,15 +1537,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "component",
     "sub": "Substrate",
     "role": "Advanced IC substrates",
-    "change": 22.92,
+    "change": 19.48,
     "tags": [
       "substrate"
     ],
     "priceStatus": "ok",
-    "latestClose": 19250.0,
-    "referenceClose": 15660.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 23000.0,
+    "referenceClose": 19250.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "COHR",
@@ -1555,15 +1555,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "module",
     "sub": "Transceiver",
     "role": "Datacom and telecom optical transceivers",
-    "change": -1.28,
+    "change": -4.26,
     "tags": [
       "module"
     ],
     "priceStatus": "ok",
-    "latestClose": 377.57000732421875,
-    "referenceClose": 382.45001220703125,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 361.4700012207031,
+    "referenceClose": 377.57000732421875,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "LITE",
@@ -1573,15 +1573,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "module",
     "sub": "Laser / module",
     "role": "Laser engines and optical module supply",
-    "change": -2.45,
+    "change": -9.71,
     "tags": [
       "module"
     ],
     "priceStatus": "ok",
-    "latestClose": 946.9000244140625,
-    "referenceClose": 970.7000122070312,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 854.9600219726562,
+    "referenceClose": 946.9000244140625,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "FN",
@@ -1591,15 +1591,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "module",
     "sub": "Optical manufacturing",
     "role": "Optical module contract manufacturing",
-    "change": -2.52,
+    "change": -7.06,
     "tags": [
       "manufacturing"
     ],
     "priceStatus": "ok",
-    "latestClose": 703.8599853515625,
-    "referenceClose": 722.0399780273438,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 654.1599731445312,
+    "referenceClose": 703.8599853515625,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "CIEN",
@@ -1609,15 +1609,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "module",
     "sub": "Coherent module",
     "role": "Coherent optical modules and transport platforms",
-    "change": 5.28,
+    "change": -0.6,
     "tags": [
       "coherent"
     ],
     "priceStatus": "ok",
-    "latestClose": 583.739990234375,
-    "referenceClose": 554.4600219726562,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 580.22998046875,
+    "referenceClose": 583.739990234375,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "CSCO",
@@ -1627,15 +1627,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "module",
     "sub": "Acacia module",
     "role": "Acacia coherent optics and pluggable modules",
-    "change": 1.86,
+    "change": 0.01,
     "tags": [
       "Acacia"
     ],
     "priceStatus": "ok",
-    "latestClose": 120.41000366210938,
-    "referenceClose": 118.20999908447266,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 120.41999816894531,
+    "referenceClose": 120.41000366210938,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "NOK",
@@ -1645,15 +1645,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "module",
     "sub": "Optical module",
     "role": "Coherent optics and network system modules",
-    "change": 10.9,
+    "change": -4.07,
     "tags": [
       "coherent"
     ],
     "priceStatus": "ok",
-    "latestClose": 15.470000267028809,
-    "referenceClose": 13.949999809265137,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 14.84000015258789,
+    "referenceClose": 15.470000267028809,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "4979.TWO",
@@ -1663,15 +1663,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "module",
     "sub": "Transceiver",
     "role": "Optical communication modules and components",
-    "change": 18.64,
+    "change": -0.95,
     "tags": [
       "module"
     ],
     "priceStatus": "ok",
-    "latestClose": 630.0,
-    "referenceClose": 531.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 624.0,
+    "referenceClose": 630.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "4977.TW",
@@ -1681,15 +1681,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "module",
     "sub": "Transceiver",
     "role": "Optical transceiver supplier",
-    "change": -3.09,
+    "change": -4.1,
     "tags": [
       "module"
     ],
     "priceStatus": "ok",
-    "latestClose": 219.5,
-    "referenceClose": 226.5,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 210.5,
+    "referenceClose": 219.5,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "6442.TW",
@@ -1699,15 +1699,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "module",
     "sub": "Transceiver component",
     "role": "Optical communication and connector products",
-    "change": 7.76,
+    "change": -1.6,
     "tags": [
       "module"
     ],
     "priceStatus": "ok",
-    "latestClose": 1875.0,
-    "referenceClose": 1740.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 1845.0,
+    "referenceClose": 1875.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "3450.TW",
@@ -1717,15 +1717,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "module",
     "sub": "OSA",
     "role": "Optical subassemblies for transceivers",
-    "change": 16.18,
+    "change": 6.75,
     "tags": [
       "OSA"
     ],
     "priceStatus": "ok",
-    "latestClose": 459.5,
-    "referenceClose": 395.5,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 490.5,
+    "referenceClose": 459.5,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "3163.TWO",
@@ -1735,15 +1735,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "module",
     "sub": "Passive optical",
     "role": "Fiber components used in modules",
-    "change": 20.53,
+    "change": -10.04,
     "tags": [
       "passive"
     ],
     "priceStatus": "ok",
-    "latestClose": 1145.0,
-    "referenceClose": 950.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 1030.0,
+    "referenceClose": 1145.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "6530.TWO",
@@ -1753,15 +1753,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "module",
     "sub": "Optical module",
     "role": "Optical communication module exposure",
-    "change": 2.29,
+    "change": -3.59,
     "tags": [
       "module"
     ],
     "priceStatus": "ok",
-    "latestClose": 111.5,
-    "referenceClose": 109.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 107.5,
+    "referenceClose": 111.5,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "4908.TWO",
@@ -1771,15 +1771,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "module",
     "sub": "Optical module",
     "role": "Optical communication module and equipment",
-    "change": 10.1,
+    "change": -12.73,
     "tags": [
       "module"
     ],
     "priceStatus": "ok",
-    "latestClose": 267.0,
-    "referenceClose": 242.5,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 233.0,
+    "referenceClose": 267.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "300308.SZ",
@@ -1789,16 +1789,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "module",
     "sub": "800G / 1.6T",
     "role": "High-speed optical transceiver leader",
-    "change": -1.13,
+    "change": 11.87,
     "tags": [
       "800G",
       "1.6T"
     ],
     "priceStatus": "ok",
-    "latestClose": 1037.97998046875,
-    "referenceClose": 1049.8699951171875,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 1161.1600341796875,
+    "referenceClose": 1037.97998046875,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "300502.SZ",
@@ -1808,15 +1808,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "module",
     "sub": "Transceiver",
     "role": "Datacom optical transceivers",
-    "change": -0.54,
+    "change": 16.43,
     "tags": [
       "module"
     ],
     "priceStatus": "ok",
-    "latestClose": 606.77001953125,
-    "referenceClose": 610.0499877929688,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 706.4500122070312,
+    "referenceClose": 606.77001953125,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "002281.SZ",
@@ -1826,15 +1826,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "module",
     "sub": "Optical module",
     "role": "Optical devices and modules",
-    "change": 9.86,
+    "change": -5.52,
     "tags": [
       "module"
     ],
     "priceStatus": "ok",
-    "latestClose": 215.8699951171875,
-    "referenceClose": 196.49000549316406,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 203.9499969482422,
+    "referenceClose": 215.8699951171875,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "603083.SH",
@@ -1844,15 +1844,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "module",
     "sub": "Optical module",
     "role": "Optical modules and broadband equipment",
-    "change": 1.0,
+    "change": 9.32,
     "tags": [
       "module"
     ],
     "priceStatus": "ok",
-    "latestClose": 190.0,
-    "referenceClose": 188.1199951171875,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 207.6999969482422,
+    "referenceClose": 190.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "300394.SZ",
@@ -1862,15 +1862,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "module",
     "sub": "Optical engine parts",
     "role": "High-speed module precision components",
-    "change": -6.87,
+    "change": 22.2,
     "tags": [
       "component"
     ],
     "priceStatus": "ok",
-    "latestClose": 372.5,
-    "referenceClose": 399.989990234375,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 455.20001220703125,
+    "referenceClose": 372.5,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "688205.SH",
@@ -1880,15 +1880,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "module",
     "sub": "Optical module",
     "role": "Optical transceiver modules",
-    "change": -3.46,
+    "change": -7.55,
     "tags": [
       "module"
     ],
     "priceStatus": "ok",
-    "latestClose": 256.79998779296875,
-    "referenceClose": 266.010009765625,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 237.41000366210938,
+    "referenceClose": 256.79998779296875,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "000988.SZ",
@@ -1898,15 +1898,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "module",
     "sub": "Optical module",
     "role": "Optical communication and laser products",
-    "change": 16.67,
+    "change": -2.81,
     "tags": [
       "module"
     ],
     "priceStatus": "ok",
-    "latestClose": 156.30999755859375,
-    "referenceClose": 133.97999572753906,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 151.9199981689453,
+    "referenceClose": 156.30999755859375,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "600498.SH",
@@ -1916,15 +1916,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "module",
     "sub": "Optical network",
     "role": "Optical network systems and modules",
-    "change": 1.58,
+    "change": -5.91,
     "tags": [
       "network"
     ],
     "priceStatus": "ok",
-    "latestClose": 55.150001525878906,
-    "referenceClose": 54.290000915527344,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 51.88999938964844,
+    "referenceClose": 55.150001525878906,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "5802.T",
@@ -1934,15 +1934,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "module",
     "sub": "Optical device",
     "role": "Optical components and communication devices",
-    "change": 7.65,
+    "change": 6.47,
     "tags": [
       "module"
     ],
     "priceStatus": "ok",
-    "latestClose": 11820.0,
-    "referenceClose": 10980.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 12585.0,
+    "referenceClose": 11820.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "ANET",
@@ -1952,15 +1952,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "system",
     "sub": "AI switch",
     "role": "AI datacenter Ethernet switches",
-    "change": 8.49,
+    "change": 3.53,
     "tags": [
       "switch"
     ],
     "priceStatus": "ok",
-    "latestClose": 154.02999877929688,
-    "referenceClose": 141.97000122070312,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 159.47000122070312,
+    "referenceClose": 154.02999877929688,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "CSCO",
@@ -1970,15 +1970,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "system",
     "sub": "Switch / router",
     "role": "Enterprise and cloud networking systems",
-    "change": 1.86,
+    "change": 0.01,
     "tags": [
       "network"
     ],
     "priceStatus": "ok",
-    "latestClose": 120.41000366210938,
-    "referenceClose": 118.20999908447266,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 120.41999816894531,
+    "referenceClose": 120.41000366210938,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "HPE",
@@ -1988,15 +1988,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "system",
     "sub": "Server / networking",
     "role": "AI servers, networking and cloud infrastructure",
-    "change": 13.53,
+    "change": 14.53,
     "tags": [
       "server"
     ],
     "priceStatus": "ok",
-    "latestClose": 37.58000183105469,
-    "referenceClose": 33.099998474121094,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 43.040000915527344,
+    "referenceClose": 37.58000183105469,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "DELL",
@@ -2006,15 +2006,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "system",
     "sub": "AI server",
     "role": "AI server and enterprise infrastructure",
-    "change": 21.98,
+    "change": 42.59,
     "tags": [
       "server"
     ],
     "priceStatus": "ok",
-    "latestClose": 295.19000244140625,
-    "referenceClose": 241.99000549316406,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 420.9100036621094,
+    "referenceClose": 295.19000244140625,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "SMCI",
@@ -2024,15 +2024,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "system",
     "sub": "AI server",
     "role": "AI server platforms and rack-scale systems",
-    "change": 14.63,
+    "change": 29.54,
     "tags": [
       "server"
     ],
     "priceStatus": "ok",
-    "latestClose": 35.58000183105469,
-    "referenceClose": 31.040000915527344,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 46.09000015258789,
+    "referenceClose": 35.58000183105469,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "CLS",
@@ -2042,15 +2042,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "system",
     "sub": "ODM / EMS",
     "role": "Cloud hardware and networking manufacturing",
-    "change": 2.46,
+    "change": 4.91,
     "tags": [
       "ODM"
     ],
     "priceStatus": "ok",
-    "latestClose": 367.3699951171875,
-    "referenceClose": 358.54998779296875,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 385.3900146484375,
+    "referenceClose": 367.3699951171875,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "JBL",
@@ -2060,15 +2060,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "system",
     "sub": "EMS",
     "role": "Electronics manufacturing for networking systems",
-    "change": 7.22,
+    "change": 0.06,
     "tags": [
       "EMS"
     ],
     "priceStatus": "ok",
-    "latestClose": 364.3500061035156,
-    "referenceClose": 339.82000732421875,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 364.55999755859375,
+    "referenceClose": 364.3500061035156,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "FLEX",
@@ -2078,15 +2078,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "system",
     "sub": "EMS",
     "role": "Electronics manufacturing and cloud hardware",
-    "change": -3.91,
+    "change": 13.82,
     "tags": [
       "EMS"
     ],
     "priceStatus": "ok",
-    "latestClose": 132.47000122070312,
-    "referenceClose": 137.86000061035156,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 150.77999877929688,
+    "referenceClose": 132.47000122070312,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "2345.TW",
@@ -2096,16 +2096,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "system",
     "sub": "Switch ODM",
     "role": "White-box switch and cloud networking ODM",
-    "change": -1.4,
+    "change": -1.62,
     "tags": [
       "switch",
       "ODM"
     ],
     "priceStatus": "ok",
-    "latestClose": 2470.0,
-    "referenceClose": 2505.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 2430.0,
+    "referenceClose": 2470.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "2382.TW",
@@ -2115,16 +2115,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "system",
     "sub": "AI server",
     "role": "AI server and cloud infrastructure ODM",
-    "change": 3.27,
+    "change": 7.28,
     "tags": [
       "server",
       "ODM"
     ],
     "priceStatus": "ok",
-    "latestClose": 316.0,
-    "referenceClose": 306.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 339.0,
+    "referenceClose": 316.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "6669.TW",
@@ -2134,16 +2134,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "system",
     "sub": "AI server",
     "role": "Cloud datacenter server ODM",
-    "change": 8.02,
+    "change": -1.45,
     "tags": [
       "server",
       "ODM"
     ],
     "priceStatus": "ok",
-    "latestClose": 5525.0,
-    "referenceClose": 5115.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 5445.0,
+    "referenceClose": 5525.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "2317.TW",
@@ -2153,15 +2153,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "system",
     "sub": "EMS / server",
     "role": "AI server and system assembly",
-    "change": 0.6,
+    "change": 15.6,
     "tags": [
       "EMS"
     ],
     "priceStatus": "ok",
-    "latestClose": 250.0,
-    "referenceClose": 248.5,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 289.0,
+    "referenceClose": 250.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "2308.TW",
@@ -2171,16 +2171,16 @@ window.HEATMAP_COMPANIES = [
     "segment": "system",
     "sub": "Power / thermal",
     "role": "Power, thermal and datacenter infrastructure",
-    "change": 0.96,
+    "change": 16.71,
     "tags": [
       "power",
       "thermal"
     ],
     "priceStatus": "ok",
-    "latestClose": 2095.0,
-    "referenceClose": 2075.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 2445.0,
+    "referenceClose": 2095.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "3706.TW",
@@ -2190,15 +2190,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "system",
     "sub": "Server",
     "role": "Server and datacenter system integration",
-    "change": 9.89,
+    "change": 1.14,
     "tags": [
       "server"
     ],
     "priceStatus": "ok",
-    "latestClose": 87.80000305175781,
-    "referenceClose": 79.9000015258789,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 88.80000305175781,
+    "referenceClose": 87.80000305175781,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "3231.TW",
@@ -2208,15 +2208,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "system",
     "sub": "AI server",
     "role": "AI server and system integration",
-    "change": 6.64,
+    "change": 9.69,
     "tags": [
       "server"
     ],
     "priceStatus": "ok",
-    "latestClose": 144.5,
-    "referenceClose": 135.5,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 158.5,
+    "referenceClose": 144.5,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "2356.TW",
@@ -2226,15 +2226,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "system",
     "sub": "Server",
     "role": "Server and cloud equipment manufacturing",
-    "change": 13.98,
+    "change": 17.98,
     "tags": [
       "server"
     ],
     "priceStatus": "ok",
-    "latestClose": 59.5,
-    "referenceClose": 52.20000076293945,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 70.19999694824219,
+    "referenceClose": 59.5,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "3380.TW",
@@ -2244,15 +2244,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "system",
     "sub": "Networking",
     "role": "Networking products and broadband equipment",
-    "change": 10.16,
+    "change": 13.03,
     "tags": [
       "network"
     ],
     "priceStatus": "ok",
-    "latestClose": 34.150001525878906,
-    "referenceClose": 31.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 38.599998474121094,
+    "referenceClose": 34.150001525878906,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "6285.TW",
@@ -2262,15 +2262,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "system",
     "sub": "Network device",
     "role": "Wireless and networking equipment",
-    "change": 13.85,
+    "change": 7.77,
     "tags": [
       "network"
     ],
     "priceStatus": "ok",
-    "latestClose": 296.0,
-    "referenceClose": 260.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 319.0,
+    "referenceClose": 296.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "000988.SZ",
@@ -2280,15 +2280,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "system",
     "sub": "Optical systems",
     "role": "Optical communication and laser systems",
-    "change": 16.67,
+    "change": -2.81,
     "tags": [
       "system"
     ],
     "priceStatus": "ok",
-    "latestClose": 156.30999755859375,
-    "referenceClose": 133.97999572753906,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 151.9199981689453,
+    "referenceClose": 156.30999755859375,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "600498.SH",
@@ -2298,15 +2298,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "system",
     "sub": "Optical network",
     "role": "Optical transmission and network equipment",
-    "change": 1.58,
+    "change": -5.91,
     "tags": [
       "network"
     ],
     "priceStatus": "ok",
-    "latestClose": 55.150001525878906,
-    "referenceClose": 54.290000915527344,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 51.88999938964844,
+    "referenceClose": 55.150001525878906,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "000063.SZ",
@@ -2316,15 +2316,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "system",
     "sub": "Telecom equipment",
     "role": "Telecom and datacenter network equipment",
-    "change": -2.91,
+    "change": 3.03,
     "tags": [
       "telecom"
     ],
     "priceStatus": "ok",
-    "latestClose": 35.63999938964844,
-    "referenceClose": 36.709999084472656,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 36.720001220703125,
+    "referenceClose": 35.63999938964844,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "6701.T",
@@ -2334,15 +2334,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "system",
     "sub": "Network systems",
     "role": "Telecom, submarine and network systems",
-    "change": 2.52,
+    "change": -0.05,
     "tags": [
       "network"
     ],
     "priceStatus": "ok",
-    "latestClose": 4105.0,
-    "referenceClose": 4004.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 4103.0,
+    "referenceClose": 4105.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   },
   {
     "ticker": "6702.T",
@@ -2352,15 +2352,15 @@ window.HEATMAP_COMPANIES = [
     "segment": "system",
     "sub": "ICT systems",
     "role": "ICT infrastructure and network systems",
-    "change": 2.8,
+    "change": 1.84,
     "tags": [
       "ICT"
     ],
     "priceStatus": "ok",
-    "latestClose": 3307.0,
-    "referenceClose": 3217.0,
-    "priceDate": "2026-05-22",
-    "referenceDate": "2026-05-15"
+    "latestClose": 3368.0,
+    "referenceClose": 3307.0,
+    "priceDate": "2026-05-29",
+    "referenceDate": "2026-05-22"
   }
 ];
 

@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-05-23T11:07:58.365984+00:00",
+  "updated_at": "2026-05-30T11:17:54.675745+00:00",
   "source": "Google Sheet / remote CSV",
   "rows": 126,
   "quote_symbols_updated": 97,
   "quote_symbols_failed": 0,
-  "date_range": "2026-05-15 → 2026-05-22",
+  "date_range": "2026-05-22 → 2026-05-29",
   "price_status_counts": {
     "ok": 126
   },
